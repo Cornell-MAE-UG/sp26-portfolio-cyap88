@@ -8,6 +8,10 @@ image: /assets/images/boe-bot.png
 
 For the final mechatronics competition project, I focused on developing the robot’s control logic and navigation algorithm to maximize the number of blocks collected within the arena. I designed a zig-zag search pattern that allowed the robot to efficiently sweep through the center of the field while using QT sensors to detect and respond to the black border. The algorithm accounted for multiple edge-detection scenarios, including approaching the border at different angles, and implemented different turning behaviors to prevent the robot from driving out of bounds. I also programmed the robot to track border intersections and stop operation after completing three passes. Through this project, I worked on sensor integration, autonomous navigation, and decision-making logic for real-time robot control.
 
+Here is a flow chart of the algorithm I made:
+
+![Algo Flow Chart]({{ "assets/images/algo.png" | relative_url }}){: class="algo-image"}
+
 This is what I coded up:
 
 ```c
