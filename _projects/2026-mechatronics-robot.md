@@ -10,7 +10,7 @@ For the final mechatronics competition project, I focused on developing the robo
 
 Here is a flow chart of the algorithm I made:
 
-![Algo Flow Chart]({{ "assets/images/algo.png" | relative_url }}){: class="algo-image"}
+![Algo Flow Chart]({{ "assets/images/algo.png" | relative_url }}){: class="algo-image" width="250"}
 
 This is what I coded up:
 
